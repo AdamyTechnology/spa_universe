@@ -1,0 +1,33 @@
+nav {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 122px;
+}
+
+nav img {
+  width: 50px;
+  height: 42px;
+  margin: 20px 30px;
+}
+
+a {
+  display: flex;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: regular;
+  font-size: 20px;
+  width: 134px;
+  height: 22px;
+  opacity: 0.8;
+  cursor: pointer;
+  margin: 30px 20px;
+  text-decoration: none;
+  opacity: 0.5;
+}
+
+a:hover {
+  font-weight: bold;
+  opacity: 1;
+  
+}
